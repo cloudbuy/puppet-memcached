@@ -6,7 +6,7 @@ class memcached::params {
       $package_name      = 'memcached'
       $package_provider  = undef
       $service_name      = 'memcached'
-      $service_hasstatus = false
+      $service_hasstatus = true
       $dev_package_name  = 'libmemcached-dev'
       $config_file       = '/etc/memcached.conf'
       $config_tmpl       = "${module_name}/memcached.conf.erb"
